@@ -16,6 +16,10 @@ func main() {
 	//cwn := modules.CanWinNim{}
 	//fmt.Println("Can win nim?", cwn.CanWinNim(4))
 
-	ransomNote := modules.RansomNote{}
-	fmt.Println("Can the ransom note be completed?", ransomNote.CanConstruct("fffbfg", "effjfggbffjdgbjjhhdegh"))
+	//ransomNote := modules.RansomNote{}
+	//fmt.Println("Can the ransom note be completed?", ransomNote.CanConstruct("fffbfg", "effjfggbffjdgbjjhhdegh"))
+
+	reverseInt := modules.ReverseInt{}
+	fmt.Println("Reverse int: ", reverseInt.Reverse(234))
+
 }
